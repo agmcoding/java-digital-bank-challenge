@@ -37,21 +37,21 @@ public class Main {
 //		Static methods:	
 	
 	static Account startCheckingAccount(String clientName, Double clientBalance, Integer branch) {
-		Account newerAccount = new CheckingAccount( 
+		Account newAccount = new CheckingAccount( 
 				new Client(clientName), clientBalance, branch);
 		
-		Bank.accounts.add(newerAccount);
+		Bank.accounts.add(newAccount);
 		
-		return newerAccount;
+		return newAccount;
 	}
 	
 	static Account startSavingsAccount(String clientName, Double clientBalance, Integer branch) {
-		Account newerAccount = new SavingsAccount( 
+		Account newAccount = new SavingsAccount( 
 				new Client(clientName), clientBalance, branch);
 		
-		Bank.accounts.add(newerAccount);
+		Bank.accounts.add(newAccount);
 		
-		return newerAccount;
+		return newAccount;
 	}
 	
 }
