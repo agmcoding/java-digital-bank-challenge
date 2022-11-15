@@ -1,7 +1,7 @@
 
 # Java Digital Bank Challenge
 
-##Hi there!
+## Hi there!
 This code was developed by me for a bootcamp challenge.
 The description/scenario was:
 "A bank offers its clients 2 types of accounts (checking and savings), 
